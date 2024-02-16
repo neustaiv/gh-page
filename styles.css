@@ -22,11 +22,11 @@ time, mark, audio, video {
 /* IMPORT DES FONTS*/
 @font-face {
     font-family: "Satoshi";
-    src: url(fonts/Satoshi-Variable.ttf);
+    src: url("./fonts/Satoshi-Variable.ttf");
 }
 @font-face {
     font-family: "Chillax";
-    src: url(/fonts/Chillax-Variable.ttf);
+    src: url("./fonts/Chillax-Variable.ttf");
 }
 
 .section {
@@ -63,7 +63,7 @@ nav{
 }
 .hero {
   height: 95%;
-  background-image: url(/img/bg-darker.png);
+  background-image: url("./img/bg-darker.png"); /* Reduce PNG wheight */
   background-size: cover;
   background-position: center top;
 }
